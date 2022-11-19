@@ -40,32 +40,6 @@ To run the project:
 
 ## Repository overview
 
-├── README.md
-├── data
-│   └── shapefiles
-│       └── GSHHS_shp 
-│           ├── c
-│           ├── f
-│           ├── e
-│           ├── h
-│           ├── i
-│           └── l
-├── geo
-│   ├── main.py
-│   ├── dcel.py               
-│   ├── bst.py
-│   ├── dual_graph.py
-│   ├── triangulation.py
-│   ├── simple_funnel.py
-│   │
-│   ├── test_dcel.py
-│   ├── test_bst.py
-│   ├── test_dual_graph.py
-│   ├── test_triangulation.py
-│   └── test_simple_funnel.py
-
-More specifically on the modules,
-
 dcel.py          : Implements a Doubly Connected Edge List (DCEL) supporting
                    needed operations and functions.
 
