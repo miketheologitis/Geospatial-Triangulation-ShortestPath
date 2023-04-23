@@ -1,8 +1,8 @@
 import geopandas as gpd
 from shapely.geometry import Polygon, Point, LineString
-from triangulation import triangulate_polygon, find_triangle_face_containing_point
-from dual_graph import DualGraph
-from simple_funnel import funnel_shortest_path
+from src.triangulation import triangulate_polygon, find_triangle_face_containing_point
+from src.dual_graph import DualGraph
+from src.simple_funnel import funnel_shortest_path
 import matplotlib.pyplot as plt
 
 from pathlib import Path
