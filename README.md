@@ -16,7 +16,7 @@ This project provides a set of tools for processing geospatial data in the form 
 ## Project Structure
 
 The repository is organized as follows:
-
+```
 Geospatial-Triangulation-ShortestPath/
 ├── __init__.py
 ├── unit_tests/
@@ -41,6 +41,7 @@ Geospatial-Triangulation-ShortestPath/
 ├── conda_requirements.txt
 ├── pip_requirements.txt
 └── README.md
+```
   
 ### `src` directory
 
