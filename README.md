@@ -17,30 +17,30 @@ This project provides a set of tools for processing geospatial data in the form 
 
 The repository is organized as follows:
 
-| - Geospatial-Triangulation-ShortestPath
-  | - __init__.py
-  | - unit_tests
-      | - __init__.py
-      | - test_bst.py
-      | - test_dcel.py
-      | - test_dual_graph.py
-      | - test_simple_funnel.py
-      | - test_triangulation.py
-  | - src
-      | - __init__.py
-      | - bst.py
-      | - dcel.py
-      | - dual_graph.py
-      | - simple_funnel.py
-      | - triangulation.py
-  | - data
-      | - shapefiles
-	    | - ...
-		| - README.txt
-  | - main.py
-  | - conda_requirements.txt
-  | - pip_requirements.txt
-  | - README.md
+Geospatial-Triangulation-ShortestPath/
+├── __init__.py
+├── unit_tests/
+│   ├── __init__.py
+│   ├── test_bst.py
+│   ├── test_dcel.py
+│   ├── test_dual_graph.py
+│   ├── test_simple_funnel.py
+│   └── test_triangulation.py
+├── src/
+│   ├── __init__.py
+│   ├── bst.py
+│   ├── dcel.py
+│   ├── dual_graph.py
+│   ├── simple_funnel.py
+│   └── triangulation.py
+├── data/
+│   └── shapefiles/
+│       ├── ...
+│       └── README.txt
+├── main.py
+├── conda_requirements.txt
+├── pip_requirements.txt
+└── README.md
   
 ### `src` directory
 
